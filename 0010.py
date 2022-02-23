@@ -7,7 +7,7 @@ Created on Wed Feb 23 09:46:13 2022
 Project Euler 10
 """
 soma = 2
-for i in range(3,2000000,2):
+for i in range(3,2000000,2): #tirando 2, todo numero par n é primo
     for j in range(2,i,1):
         sobra = i%j
         if sobra == 0:
